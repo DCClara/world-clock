@@ -1,11 +1,74 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/097/929/original/space-planet-digital-art-space-art-wallpaper-preview.jpg?1695400786);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
 h1 {
   text-align: center;
+  font-size: 36px;
+}
+h2 {
+  margin: 0 0 10px;
+  font-size: 28px;
 }
 
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 18px;
+  transition: 0.9ms ease-in;
+}
+
+select:hover {
+  cursor: pointer;
+  color: rgb(238, 247, 255);
+  background-color: #6884c3;
+  font-weight: bolder;
+  transition-delay: 0.5;
+}
+.container {
+  max-width: 600px;
+  background-color: rgb(238, 247, 255);
+  padding: 30px;
+  margin: 60px auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  opacity: 90%;
+}
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(228, 227, 227);
+  padding: 30px 0;
+}
+.city:last-child {
+  border: none;
+}
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+  line-height: 36px;
+}
+.date {
+  opacity: 0.7;
+}
 footer {
+  display: table;
+  border-radius: 5px;
+  margin: 0px auto 0px auto;
+  padding: 3px;
+  opacity: 80%;
+  background-color: rgb(238, 247, 255);
   text-align: center;
-}
-
-.conatiner {
-  text-align: left;
+  font-size: 18px;
+  color: #131a41;
 }
